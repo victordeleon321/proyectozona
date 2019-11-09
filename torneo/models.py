@@ -1,6 +1,6 @@
 from django.db import models
 from django.contrib import admin
-from PIL import Image
+
 
 class Personaje(models.Model):
     nombre = models.CharField(max_length=30,default='')
